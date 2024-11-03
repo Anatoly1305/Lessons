@@ -3,5 +3,4 @@ students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
 print(sorted(students))
 average = [[sum(grades[0])/len(grades[0])], [sum(grades[1])/len(grades[1])], [sum(grades[2])/len(grades[2])], [sum(grades[3])/len(grades[3])], [sum(grades[4])/len(grades[4])]]
 print(average)
-average_score = {"Aaron": 4.0, "Bilbo": 2.25, "Johnny": 3.6666666666666665, "Steve": 4.8}
-print(average_score)
+print({"Aaron":4.0,"Bilbo":2.25,"Johnny":3.6666666666666665,"Steve":4.8})
